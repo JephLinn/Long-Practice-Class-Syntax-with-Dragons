@@ -21,17 +21,17 @@ class FriendlyDragon extends Dragon {
 
 module.exports = FriendlyDragon
 
-const puff = new FriendlyDragon(
-    "Puff",
-    "green",
-    [
-      "live by the sea",
-      "frolick in the autumn mist",
-      "help small children"
-    ],
-    "Jackie Paper"
-  );
-  console.log(puff);
-  console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
-  puff.hasLifeGoals();
-  console.log(puff.helpsPeople());
+// const puff = new FriendlyDragon(
+//     "Puff",
+//     "green",
+//     [
+//       "live by the sea",
+//       "frolick in the autumn mist",
+//       "help small children"
+//     ],
+//     "Jackie Paper"
+//   );
+//   console.log(puff);
+//   console.log(puff.breathesFire()); //Friendly dragons can still breathe fire!
+//   puff.hasLifeGoals();
+//   console.log(puff.helpsPeople());
